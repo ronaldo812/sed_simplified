@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
     const char *filename = argv[1];
     const char *command = argv[2];
 
-    process_sed_command(filename, command);
+    proc(filename, command);
 
     return 0;
 
