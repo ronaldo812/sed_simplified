@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c11 -D_GNU_SOURCE
-TARGET = sed_simplified
+TARGET = prgrm
 SOURCES = main.c operations.c
 OBJECTS = $(SOURCES:.c=.o)
 
