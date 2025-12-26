@@ -122,7 +122,7 @@ void process_sed_command(const char *filename, const char *command) {
     if (rename(temp_filename, filename) != 0) {
         remove(filename);
         if (rename(temp_filename, filename) != 0) {
-            perror("Error renaming file");
+            perror("ошибка переименования файла..");
         }
     }
 
